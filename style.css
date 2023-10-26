@@ -8,8 +8,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #222 !important;
+    background-color: rgb(241, 236, 236) !important;
 }
+
 .card{
     width: 70%;
     max-width: 400px;
@@ -19,15 +20,13 @@ body{
     border-radius: 20px;
     padding: 15px 5px;
     text-align: center;
+   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+                 inset 4px 4px 10px white;
 }
 .search{
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-}
-input{
-    /* width: 20px !important; */
 }
 .search input{
     width: 0px;
@@ -43,8 +42,6 @@ input{
     font-size: 14px;
 }
 ::placeholder{
-    /* margin-right: 20px; */
-    /* font-size: 30px; */
     padding: 0 0 0 20px;
 }
 .search button{
@@ -92,6 +89,8 @@ input{
     font-size: 18px;
     margin-top: -6px;
 }
+
+
 @media screen and (max-width: 440px){
     ::placeholder{
         font-size: 10px;
